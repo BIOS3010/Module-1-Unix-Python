@@ -1,5 +1,8 @@
 # Module 1: Learning the basics of Bash/UNIX (and repeating Python)
-*1. Install a shell on your computer*
+**1. Install a shell on your computer**
+
+
+
 
 
 * Read [this guide](guide_getting_started_with_python..md) if you need help to get Python installed on your computer.

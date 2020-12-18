@@ -1,4 +1,4 @@
-# Module-1 Unix-Python
+# Module 1: Learning the basics of Bash/UNIX (and repeating Python)
 * Read [this guide](guide_getting_started_with_python..md) if you need help to get Python installed on your computer.
 
 # Python exercises
@@ -6,4 +6,5 @@
 * [More training](..)
 
 # Unix exercises
-Here.
+* [Exercise 2: folder structure and navigation](Exercise_2_folder_structure.md) 
+* [Exercise 3: Important UNIX commands](Exercise_3_cmds.md) 

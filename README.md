@@ -12,5 +12,6 @@
 * [More training](..)
 
 # Unix exercises
+* Idea: Make your own cheat sheet. Each breakout-group gets assigned a unique set of commands (ls, cd, pwd, etc.), and should describe each and show an example in the terminal. Report on Padlet?
 * [Exercise 2: folder structure and navigation](Exercise_2_folder_structure.md) 
 * [Exercise 3: Important UNIX commands](Exercise_3_cmds.md) 

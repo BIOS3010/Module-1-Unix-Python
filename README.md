@@ -26,10 +26,9 @@ In these exercises, you will first try out some basic UNIX commands, and then yo
 
 **Install gitbash**
 
-**Creating, moving and deleting files**
+**Working and navigating with directories/folders**
 - mkdir
 - rmdir
-- cp
 - mv
 - rm
 
@@ -113,6 +112,47 @@ Now you should be back in the BIOS3010 folder.
 ```diff
 ! Check that you are in the BIOS3010 folder (using the some of the commands you just learned)
 ```
+
+**9. Removing directories with `rmdir`**
+Do this:
+```bash
+mkdir abc
+ls
+rmdir abc
+```
+
+```diff
+! Describe what happened in the three commands above
+```
+
+**10. Moving directories and files with `mv`**
+Do this:
+```bash
+mkdir abc
+mv abc def
+ls
+```
+Note: `mv` moves files and directories, and can therefore also be used to rename these by "moving" them to their new name
+
+```diff
+! Describe what happened in the three commands above
+! Make two new directories (`ghi` and `jkl`)
+! Move the `ghi` directory into the `jkl` directory
+! Try to remove the `jkl` directory. What happens?
+```
+
+**11. Summarize what you have learned**
+You have now learned about the following commands:
+- cd 
+- mkdir
+- pwd
+- ls
+- rmdir
+- mv 
+```diff
+You 
+```
+
 
 Then:
 - rmdir

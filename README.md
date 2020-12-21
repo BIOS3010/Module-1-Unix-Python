@@ -30,6 +30,13 @@ cd
 ```
 This command will take you back to your home/user directory.
 
+**2. Creating a new directory: `mkdir`** 
+To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:
+```bash
+mkdir BIOS3010
+```
+
+
 **3. Moving around in the file system** 
 To navigate into the newly created folder (with the name BIOS3010), type in the following command:
 ```bash
@@ -47,7 +54,7 @@ pwd
 **5. etc.** 
 
 
-**2. Creating a new directory: `mkdir`** 
+
 
 
 

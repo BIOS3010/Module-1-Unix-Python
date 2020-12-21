@@ -27,10 +27,6 @@ In these exercises, you will first try out some basic UNIX commands, and then yo
 **Install gitbash**
 
 **Working and navigating with directories/folders**
-- mkdir
-- rmdir
-- mv
-- rm
 
 **1. Entering your home directory: `cd`** 
 Type in the following command in the terminal
@@ -125,20 +121,34 @@ rmdir abc
 ! Describe what happened in the three commands above
 ```
 
-**10. Moving directories and files with `mv`**
-Do this:
+**10. Navigating in directory paths**
 ```bash
 mkdir abc
-mv abc def
+mkdir abc/def
+mkdir abc/def/ghi
+```
+The slash symbol `/` is used to indicate the (relative) paths of the directories
+
+```diff
+! Describe what happened in the three commands above
+! Navigate into the new direcories with `cd` and look at where you are with `pwd`
+! Navigate back to the BIOS3010 folder (hint: use the commands you have learned above)
+```
+
+**11. Moving directories and files with `mv`**
+Do this:
+```bash
+mkdir xyz
+mv xyz zzz
 ls
 ```
 Note: `mv` moves files and directories, and can therefore also be used to rename these by "moving" them to their new name
 
 ```diff
 ! Describe what happened in the three commands above
-! Make two new directories (`ghi` and `jkl`)
-! Move the `ghi` directory into the `jkl` directory
-! Try to remove the `jkl` directory. What happens?
+! Make two new directories (`aaa` and `bbb`)
+! Move the `aaa` directory into the `bbb` directory
+! Try to remove the `aaa` directory. What happens?
 ```
 
 **11. Summarize what you have learned**

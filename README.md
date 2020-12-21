@@ -162,7 +162,7 @@ You have now learned about the following commands/concepts:
 - ~
 
 ```diff
-Write down a short description of what each of these does
+! Write down a short description of what each of these does
 ```
 
 

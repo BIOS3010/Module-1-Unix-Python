@@ -56,6 +56,7 @@ Type in:
 ```bash
 pwd
 ```
+
 ```diff
 ! What got printed to the screen when you used the `pwd` command?
 ```
@@ -63,6 +64,7 @@ Obs. Unlike the other commands above, the `pwd` command only prints to the scree
 
 **5. `cd ..` **
 Type in:
+
 ```bash
 cd ..
 ```
@@ -70,6 +72,7 @@ cd ..
 ```diff
 ! Use the `pwd` command again. What happened when you typed `cd ..`?
 ```
+
 **6. `ls`**
 Type in:
 ```bash
@@ -92,9 +95,11 @@ Note that we use a single dot instead of two dots like in step 5.
 ```diff
 ! What is the difference between `cd .` and `cd ..`
 ```
+
 Note: `.` (a single dot) and `..` (two dots) can be used as references in all UNIX commands.
 
 **8. `cd ~`**
+
 Type this:
 ```bash
 cd ~ 
@@ -105,8 +110,9 @@ Do this:
 cd ~/BIOS3010/ 
 ```
 Now you should be back in the BIOS3010 folder.
+```diff
 ! Check that you are in the BIOS3010 folder (using the some of the commands you just learned)
-
+```
 
 
 - cp

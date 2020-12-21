@@ -114,13 +114,13 @@ Now you should be back in the BIOS3010 folder.
 ! Check that you are in the BIOS3010 folder (using the some of the commands you just learned)
 ```
 
-
-- cp
-- mkdir
+Then:
 - rmdir
+- cp
 - mv
 - rm
 
+And finally:
 - cat
 - head
 - tail

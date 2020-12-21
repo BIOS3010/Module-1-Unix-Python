@@ -14,10 +14,8 @@ In some places, there are questions where you are meant to write down your answe
 ```
 
 
-
-* Read [this guide](guide_getting_started_with_python.md) if you need help to get Python installed on your computer.
-
 # Python exercises
+* Read [this guide](guide_getting_started_with_python.md) if you need help to get Python installed on your computer.
 * [Repetition](Python-exercise1.md) ([Solution](solutions/Exercise1-solution.py))
 * [More training](..)
 

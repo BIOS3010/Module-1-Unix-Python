@@ -36,7 +36,6 @@ To create a new directory, use the `mkdir` command followed by the name of the n
 mkdir BIOS3010
 ```
 
-
 **3. Moving around in the file system** 
 To navigate into the newly created folder (with the name BIOS3010), type in the following command:
 ```bash
@@ -50,8 +49,37 @@ pwd
 ```diff
 ! What got printed to the screen when you used the `pwd` command?
 ```
+Obs. Unlike the other commands above, the `pwd` command only prints to the screen, and does not change anything.
 
-**5. etc.** 
+**5. `cd ..` and `cd .`**
+Type in:
+```bash
+cd ..
+```
+
+```diff
+! Use the `pwd` command again. What happened when you typed `cd ..`?
+! Go back to the BIOS3010 (hint: use `cd`). Then type in `cd .` (with one dot). What happens?
+```
+
+
+
+- cp
+- mkdir
+- rmdir
+- mv
+- rm
+
+- cat
+- head
+- tail
+- wc
+- grep
+- sort
+- uniq
+
+
+
 
 
 

@@ -75,17 +75,37 @@ Type in:
 ```bash
 ls
 ```
+
 ```diff
 ! What does the `ls` command do?
-Obs: Like the `pwd` command, this command command only prints to the screen.
 ```
+Obs: Like the `pwd` command, this command command only prints to the screen.
 
 **7. `cd .`**
 - Go back to the BIOS3010 (hint: use `cd`).
+Then type in:
+```bash
+cd .
 ```
-! Go back to the BIOS3010 (hint: use `cd`). Then type in `cd .` (with one dot). What happens?
+Note that we use a single dot instead of two dots like in step 5.
 
+```diff
+! What is the difference between `cd .` and `cd ..`
 ```
+Note: `.` (a single dot) and `..` (two dots) can be used as references in all UNIX commands.
+
+**8. `cd ~`**
+Type this:
+```bash
+cd ~ 
+```
+Now you should be back to your home directory (check with `pwd` and `ls`. The `~` symbol is a general reference to your home diretory, that you can use instead of writing the full path.
+Do this:
+```bash
+cd ~/BIOS3010/ 
+```
+Now you should be back in the BIOS3010 folder.
+! Check that you are in the BIOS3010 folder (using the some of the commands you just learned)
 
 
 

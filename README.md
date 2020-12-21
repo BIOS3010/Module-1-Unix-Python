@@ -142,15 +142,20 @@ Note: `mv` moves files and directories, and can therefore also be used to rename
 ```
 
 **11. Summarize what you have learned**
-You have now learned about the following commands:
+You have now learned about the following commands/concepts:
 - cd 
 - mkdir
 - pwd
 - ls
 - rmdir
 - mv 
+- ..
+- .
+- /
+- ~
+
 ```diff
-You 
+Write down a short description of what each of these does
 ```
 
 

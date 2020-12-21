@@ -67,6 +67,7 @@ cd ..
 ```diff
 ! Use the `pwd` command again. What happened when you typed `cd ..`?
 ```
+Note: `..` (two dots) can be used like this in all UNIX commands where a path should be given
 
 **6. `ls`**
 Type in:
@@ -78,20 +79,6 @@ ls
 ! What does the `ls` command do?
 ```
 Obs: Like the `pwd` command, this command command only prints to the screen.
-
-**7. `cd .`**
-- Go back to the BIOS3010 (hint: use `cd`).
-Then type in:
-```bash
-cd .
-```
-Note that we use a single dot instead of two dots like in step 5.
-
-```diff
-! What is the difference between `cd .` and `cd ..`
-```
-
-Note: `.` (a single dot) and `..` (two dots) can be used as references in all UNIX commands.
 
 **8. `cd ~`**
 
@@ -127,12 +114,23 @@ mkdir abc
 mkdir abc/def
 mkdir abc/def/ghi
 ```
-The slash symbol `/` is used to indicate the (relative) paths of the directories
+Note: The slash symbol `/` is used to indicate the (relative) paths of the directories
 
 ```diff
 ! Describe what happened in the three commands above
 ! Navigate into the new direcories with `cd` and look at where you are with `pwd`
 ! Navigate back to the BIOS3010 folder (hint: use the commands you have learned above)
+```
+
+**11. Combining `..` and `/`**
+```bash
+cd abc/def/ghi/
+cd ../../
+```
+
+```diff
+! In which folder are you now placed?
+! Navigate back to the BIOS3010 folder
 ```
 
 **11. Moving directories and files with `mv`**
@@ -160,7 +158,6 @@ You have now learned about the following commands/concepts:
 - rmdir
 - mv 
 - ..
-- .
 - /
 - ~
 

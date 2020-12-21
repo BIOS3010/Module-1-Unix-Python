@@ -7,6 +7,8 @@ In the exercises below, all commands that should be run in the shell are shown:
 ```bash
 Like this
 ```
+In some places, you will be asked to do something. This will be shown:
+- Like this
 
 In some places, there are questions where you are meant to write down your answer. These are written
 ```diff
@@ -59,7 +61,7 @@ pwd
 ```
 Obs. Unlike the other commands above, the `pwd` command only prints to the screen, and does not change anything.
 
-**5. `cd ..` and `cd .`**
+**5. `cd ..` **
 Type in:
 ```bash
 cd ..
@@ -67,7 +69,22 @@ cd ..
 
 ```diff
 ! Use the `pwd` command again. What happened when you typed `cd ..`?
+```
+**6. `ls`**
+Type in:
+```bash
+ls
+```
+```diff
+! What does the `ls` command do?
+Obs: Like the `pwd` command, this command command only prints to the screen.
+```
+
+**7. `cd .`**
+- Go back to the BIOS3010 (hint: use `cd`).
+```
 ! Go back to the BIOS3010 (hint: use `cd`). Then type in `cd .` (with one dot). What happens?
+
 ```
 
 

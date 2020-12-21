@@ -1,7 +1,17 @@
 # Module 1: Learning the basics of Bash/UNIX (and repeating Python)
 **1. Install a shell on your computer**
+- Show here
 
+In the exercises below, all commands that should be run in the shell are shown:
 
+```bash
+Like this
+```
+
+In some places, there are questions where you are meant to write down your answer. These are written
+```diff
+Like this
+```
 
 
 

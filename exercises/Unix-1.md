@@ -109,9 +109,21 @@ Again, here, this is equivalent to `cd Module-1-Unix-Python`, but the `~` which 
 ```diff
 ! Spend 3-5 minutes using the above commands to move around in the filesystem in the BIOS3010 folder we created
 ```
+When you are done make sure to go back to the directory for this week's exercises:
 
+```bash
+cd ~/BIOS3010/Module-1-Unix-Python
+```
 
-**2. Creating a new directory: `mkdir`** 
+## 1.3.8 Clearing the terminal
+Whenever you want to clear all the text in the terminal to make it easier to get an overview for the next command. Type in:
+```bash
+clear
+```
+This will just remove the text in the terminal, and will not change or delete anything. It is always safe to use `clear` whenever you need a clean terminal.
+
+## 1.3.8 Creating a new directory
+
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:
 ```bash
 mkdir BIOS3010

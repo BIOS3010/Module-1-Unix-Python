@@ -207,10 +207,10 @@ and stop there. Then:
 ## 1.3.14 Other useful shortcuts
 These shortcuts can speed up things even further:
 
-- <CTRL>-a: Go to start of line, just after the prompt
-- <CTRL>-e: Go to end of line
-- <CTRL>-k: Delete everything after the cursor
-- <CTRL>-c: Kills (stops) a job that is running
+- [CTRL]-a: Go to start of line, just after the prompt
+- [CTRL]-e: Go to end of line
+- [CTRL]-k: Delete everything after the cursor
+- [CTRL]-c: Kills (stops) a job that is running
 
 ```diff
 ! Type in some random text in the terminal window
@@ -219,10 +219,14 @@ These shortcuts can speed up things even further:
 
 ```diff
 ! Note:
-! If you ever get stuck in a command that never ends, <CTRL>-c is your friend
+! If you ever get stuck in a command that never ends, [CTRL]-c is your friend
 ```
 
-## 1.3.13 A summary of what we have learned
+## 1.3.15 Getting help in using the commands
+
+TBD: --help
+
+## 1.3.16 A summary of what we have learned
 You have now learned about the following commands/concepts:
 - cd 
 - mkdir
@@ -244,5 +248,5 @@ Now [go to the second part of the exercises](Unix-2.md)
 
 
 
-(Some of the examples are taken from: http://swcarpentry.github.io/shell-novice/02-filedir/index.html)
+(Some of the examples are taken from here [http://swcarpentry.github.io/shell-novice/02-filedir/index.html)
 

@@ -142,5 +142,21 @@ Note:
 ! We call commands chained together like this "oneliners"
 ```
 
+## 1.4.11 A summary of what we have learned
+You have now learned about the following commands/concepts:
+- cat
+- wc 
+- head
+- tail
+- sort
+- grep
+- "redirection"
+- "grepping"
+- "piping"
+
+```diff
+! See if you remember what each of the above commands and concepts do
+! Remembering most of this will help you in the course
+```
 
 - See: http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html

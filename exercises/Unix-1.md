@@ -1,15 +1,16 @@
-In these exercises, you will first try out some basic UNIX commands, and then you will work in groups afterwards. You will learn about the follow UNIX commands and concepts:
+In these exercises, you will be introduced to how to 
 
 **Install gitbash**
 
 **Working and navigating with directories/folders**
+Your computer organizes files and directories (these are sometimes called "folders") in a file system. As you probably already know, files contain data and information, and directories contain files and/or other directories. On your computer, you are probably used to clicking on files and folders to navigate around in them. On the shell, however, all oparations has to be done using commands. Here, we will learn the basic (and important) commands allowing us to move around in the file system on our computer.
 
-**1. Entering your home directory: `cd`** 
+## 1.3.1 Printing our current position ("where we are) in the filesystem  ** 
 Type in the following command in the terminal
 ```bash
-cd
+pwd
 ```
-This command will take you back to your home/user directory.
+This command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home" or user directory.
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

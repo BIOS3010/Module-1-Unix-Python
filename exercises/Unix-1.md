@@ -18,13 +18,13 @@ On Nelle’s computer, the filesystem looks like this:
 ![](https://user-images.githubusercontent.com/5373069/102868272-47e64f80-443a-11eb-90fa-1ea4a6e84f21.png)
 
 The file system is made up of a root directory that contains sub-directories
-titled bin, data, users, and tmp
+titled `bin`, `data`, `users`, and `tmp`.
 
-At the top is the root directory that holds everything else. We refer to it using a slash character, /, on its own; this is the leading slash in /Users/nelle.
+At the top is the root directory that holds everything else. We refer to it using a slash character, `/`, on its own; this is the leading slash in `/Users/nelle`.
 
-Inside that directory are several other directories: bin (which is where some built-in programs are stored), data (for miscellaneous data files), Users (where users’ personal directories are located), tmp (for temporary files that don’t need to be stored long-term), and so on.
+Inside that directory are several other directories: `bin` (which is where some built-in programs are stored), `data` (for miscellaneous data files), `Users` (where users’ personal directories are located), `tmp` (for temporary files that don’t need to be stored long-term), and so on.
 
-We know that our current working directory /Users/nelle is stored inside /Users because /Users is the first part of its name. Similarly, we know that /Users is stored inside the root directory / because its name begins with /.
+We know that our current working directory `/Users/nelle` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
 
 ```diff
 !Notice that there are two meanings for the / character. 
@@ -32,11 +32,11 @@ When it appears at the front of a file or directory name, it refers to the root 
 When it appears inside a path, it’s just a separator.
 ```
 
-Underneath /Users, we find one directory for each user with an account on Nelle’s machine, her colleagues imhotep and larry.
+Underneath `/Users`, we find one directory for each user with an account on Nelle’s machine, her colleagues `imhotep` and `larry`.
 
 ![](https://user-images.githubusercontent.com/5373069/102868346-5df41000-443a-11eb-9212-1293ade3eecd.png)
 
-The user imhotep’s files are stored in /Users/imhotep, user larry’s in /Users/larry, and Nelle’s in /Users/nelle. Because Nelle is the user in our example here, this is why we get /Users/nelle as our home directory. Typically, when you open a new command prompt you will be in your home directory to start.
+The user `imhotep`’s files are stored in `/Users/imhotep`, user `larry`’s in `/Users/larry`, and Nelle’s in `/Users/nelle`. Because Nelle is the user in our example here, this is why we get `/Users/nelle` as our home directory. Typically, when you open a new command prompt you will be in your home directory to start.
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

@@ -56,6 +56,7 @@ This will list the files and direcories in our current working directory.
 
 If you are having trouble distinguising between directories and files, you can use `ls -F` to show a `/` after each directory (and a `*` after the executables).
 
+
 ## 1.3.3 Navigating into a directory
 From the step above, you should have seen a single directory called `Module-1-Unix-Python` inside the `BIOS3010` directory. To navigate into the `Module-1-Unix-Python` execute the following command:
 
@@ -160,7 +161,9 @@ Note that `mv` takes in two "arguments" like this: `mv [argument1] [argument2]`,
 
 ```diff
 ! Note:
+! An "argument" is something you provide when you run a command
 ! Some commands (like `pwd`) take no arguments, some take 1, 2 or even more arguments
+! When we used `-F` in step 1.3.2 above, this is called a "flag"
 ```
 
 Now, move the `molweights.txt` file back into the `data` folder:
@@ -186,18 +189,6 @@ Now, rename the file and directory back to their original names:
 ```bash
 mv dataset/moleculeweights.txt dataset/molweights.txt 
 mv dataset data
-```
-
-
-
-
-Note: `mv` moves files and directories, and can therefore also be used to rename these by "moving" them to their new name
-
-```diff
-! Describe what happened in the three commands above
-! Make two new directories (`aaa` and `bbb`)
-! Move the `aaa` directory into the `bbb` directory
-! Try to remove the `aaa` directory. What happens?
 ```
 
 ## 1.3.13 Using tab to speed things up**

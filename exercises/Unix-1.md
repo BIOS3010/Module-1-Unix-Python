@@ -81,7 +81,6 @@ cd ..
 ! The two dots (`..`) are used as a shortcut to "one step back" in the filesystem.
 ```
 
-
 ## 1.3.5 Using `.` as a reference to your working directory
 First, enter back into the `Module-1-Unix-Python` directory. This time, we will do this with another shortcut (a single dot, `.`)
 ```bash
@@ -122,78 +121,29 @@ clear
 ```
 This will just remove the text in the terminal, and will not change or delete anything. It is always safe to use `clear` whenever you need a clean terminal.
 
-## 1.3.8 Creating a new directory
+## 1.3.9 Creating a new directory
 
-To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:
+To create a new directory, use the `mkdir` command followed by the name of the new/empty directory:
 ```bash
-mkdir BIOS3010
-```
-
-**3. Moving around in the file system** 
-To navigate into the newly created folder (with the name BIOS3010), type in the following command:
-```bash
-cd BIOS3010
-```
-**4. Using the `pwd` command** 
-Type in:
-```bash
-pwd
+mkdir hello
 ```
 
 ```diff
-! What got printed to the screen when you used the `pwd` command?
+! Use the commands we learned about to:
+! List the name of the new folder
+! Navigate into the new folder
+! Navigate one step back
 ```
-Obs. Unlike the other commands above, the `pwd` command only prints to the screen, and does not change anything.
 
-**5. `cd ..` **
-Type in:
-
+**9. Removing directories**
+In the step above, we created an empty directory. Delete the empty directory:
 ```bash
-cd ..
+rmdir hello
 ```
 
 ```diff
-! Use the `pwd` command again. What happened when you typed `cd ..`?
-```
-Note: `..` (two dots) can be used like this in all UNIX commands where a path should be given
-
-**6. `ls`**
-Type in:
-```bash
-ls
-```
-
-```diff
-! What does the `ls` command do?
-```
-Obs: Like the `pwd` command, this command command only prints to the screen.
-
-**8. `cd ~`**
-
-Type this:
-```bash
-cd ~ 
-```
-Now you should be back to your home directory (check with `pwd` and `ls`. The `~` symbol is a general reference to your home diretory, that you can use instead of writing the full path.
-Do this:
-```bash
-cd ~/BIOS3010/ 
-```
-Now you should be back in the BIOS3010 folder.
-```diff
-! Check that you are in the BIOS3010 folder (using the some of the commands you just learned)
-```
-
-**9. Removing directories with `rmdir`**
-Do this:
-```bash
-mkdir abc
-ls
-rmdir abc
-```
-
-```diff
-! Describe what happened in the three commands above
+! Try the above command on the directory named `data`
+! What happens?
 ```
 
 **10. Navigating in directory paths**

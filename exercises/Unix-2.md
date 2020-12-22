@@ -85,7 +85,7 @@ In the above command `-k 2n` sets the sorting to column `2` and the `n` specifie
 ! Is the `molweights.txt` now sorted by molecular weight? 
 ```
 
-## 1.4.7 Redirecting command output to files
+## 1.4.8 Redirecting command output to files
 To store the output of a command in a new file, we can use the `>` symbol to "redirect" the output to a file. Do this:
 ```bash
 sort molweights.txt > molweights.sorted.txt
@@ -102,7 +102,11 @@ sort molweights.txt > molweights.sorted.txt
 ! Never redirect the output of a command that operates on a file to the same file
 ```
 
-## 1.4.8 Piping command output into other commands
+## 1.4.9 Piping command output into other commands
+
+TBD.
+
+## 1.4.10 Searching (or "grepping") for content within files
 
 TBD.
 

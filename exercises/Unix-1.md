@@ -15,7 +15,7 @@ This `pwd` (print working directory) command prints your current position in the
 To understand what a ‘home directory’ is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on our scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
 
 On Nelle’s computer, the filesystem looks like this:
-![ ](https://github.com/BIOS3010/Module-1-Unix-Python/files/5728677/filesystem.pdf)
+![](https://user-images.githubusercontent.com/5373069/102868272-47e64f80-443a-11eb-90fa-1ea4a6e84f21.png)
 
 The file system is made up of a root directory that contains sub-directories
 titled bin, data, users, and tmp
@@ -36,7 +36,7 @@ Underneath /Users, we find one directory for each user with an account on Nelle�
 
 
 
-![ ](https://github.com/BIOS3010/Module-1-Unix-Python/files/5728681/home-directories.pdf)
+![](https://user-images.githubusercontent.com/5373069/102868346-5df41000-443a-11eb-9212-1293ade3eecd.png)
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

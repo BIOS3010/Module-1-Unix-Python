@@ -18,7 +18,7 @@ Follow each of the step in numerical order. If you have problems/errors along th
 - A short video introduction to using git bash (mainly for Windows users): https://www.youtube.com/watch?v=oQc-2gsjgDg&ab_channel=MarioKaack
 
 ## 1.2 Setup today's exercises
-Copy and paste the commands below into your terminal:
+Start your Bash shell (Terminal) and copy and paste the commands below into your terminal:
 ```bash
 cd
 mkdir BIOS3010

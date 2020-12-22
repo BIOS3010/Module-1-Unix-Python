@@ -10,7 +10,33 @@ Type in the following command in the terminal
 ```bash
 pwd
 ```
-This command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home" or user directory.
+This `pwd` (print working directory) command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home" or user directory. Note that the path will look different on different computers. On a windows machine, it might look something like this:  `C:\Users\myname\BIOS3010\`, and on a Mac it could look like this: `/Users/myname/BIOS3010`. Your
+
+To understand what a ‘home directory’ is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on our scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
+
+On Nelle’s computer, the filesystem looks like this:
+![ ](https://github.com/BIOS3010/Module-1-Unix-Python/files/5728677/filesystem.pdf)
+
+The file system is made up of a root directory that contains sub-directories
+titled bin, data, users, and tmp
+
+At the top is the root directory that holds everything else. We refer to it using a slash character, /, on its own; this is the leading slash in /Users/nelle.
+
+Inside that directory are several other directories: bin (which is where some built-in programs are stored), data (for miscellaneous data files), Users (where users’ personal directories are located), tmp (for temporary files that don’t need to be stored long-term), and so on.
+
+We know that our current working directory /Users/nelle is stored inside /Users because /Users is the first part of its name. Similarly, we know that /Users is stored inside the root directory / because its name begins with /.
+
+```diff
+!Notice that there are two meanings for the / character. 
+When it appears at the front of a file or directory name, it refers to the root directory.
+When it appears inside a path, it’s just a separator.
+```
+
+Underneath /Users, we find one directory for each user with an account on Nelle’s machine, her colleagues imhotep and larry.
+
+
+
+![ ](https://github.com/BIOS3010/Module-1-Unix-Python/files/5728681/home-directories.pdf)
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

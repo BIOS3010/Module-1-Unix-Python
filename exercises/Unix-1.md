@@ -10,9 +10,9 @@ Type in the following command in the terminal
 ```bash
 pwd
 ```
-This `pwd` (print working directory) command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home" or user directory. Note that the path will look different on different computers. On a windows machine, it might look something like this:  `C:\Users\myname\BIOS3010\`, and on a Mac it could look like this: `/Users/myname/BIOS3010`. Your
+This `pwd` (print working directory) command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home directory". Note that the path will look different on different computers. On a windows machine, it might look something like this:  `C:\Users\myname\BIOS3010\`, and on a Mac it could look like this: `/Users/myname/BIOS3010`. Your
 
-To understand what a ‘home directory’ is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on our scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
+To understand what a ‘home directory’ is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on the (made up) scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
 
 On Nelle’s computer, the filesystem looks like this:
 ![](https://user-images.githubusercontent.com/5373069/102868272-47e64f80-443a-11eb-90fa-1ea4a6e84f21.png)
@@ -34,9 +34,9 @@ When it appears inside a path, it’s just a separator.
 
 Underneath /Users, we find one directory for each user with an account on Nelle’s machine, her colleagues imhotep and larry.
 
-
-
 ![](https://user-images.githubusercontent.com/5373069/102868346-5df41000-443a-11eb-9212-1293ade3eecd.png)
+
+The user imhotep’s files are stored in /Users/imhotep, user larry’s in /Users/larry, and Nelle’s in /Users/nelle. Because Nelle is the user in our example here, this is why we get /Users/nelle as our home directory. Typically, when you open a new command prompt you will be in your home directory to start.
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:
@@ -167,4 +167,6 @@ You have now learned about the following commands/concepts:
 ```diff
 ! Write down a short description of what each of these does
 ```
+
+Some of the examples are taken from: http://swcarpentry.github.io/shell-novice/02-filedir/index.html
 

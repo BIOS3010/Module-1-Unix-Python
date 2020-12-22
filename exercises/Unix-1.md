@@ -60,7 +60,7 @@ If you are having trouble distinguising between directories and files, you can u
 From the step above, you should have seen a single directory called `Module-1-Unix-Python` inside the `BIOS3010` directory. To navigate into the `Module-1-Unix-Python` execute the following command:
 
 ```bash
-cd Module-1-Unix-Python`
+cd Module-1-Unix-Python
 ```
 ```diff
 ! What is now the path of your working directory?

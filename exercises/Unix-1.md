@@ -146,15 +146,21 @@ rmdir hello
 ! What happens?
 ```
 
-## 1.3.11 Moving directories and files**
+## 1.3.11 Moving directories and files
 To move a directory or a file, we use the `mv` command. Run this:
 ```bash
 mv data/molweights.txt .
 ```
+Note that `mv` takes in two "arguments" like this: `mv [argument1] [argument2]`, where each of the two arguments are a path to a file or a directory. The first argument gives the file/directory that should be moved, and the second argument gives the path in the filesystem where it should end up.
 
 ```diff
 ! Where did the `molweights.txt` end up? (hint: use `ls`)
 ! Explain the logic of the command above
+```
+
+```diff
+! Note:
+! Some commands (like `pwd`) take no arguments, some take 1, 2 or even more arguments
 ```
 
 Now, move the `molweights.txt` file back into the `data` folder:

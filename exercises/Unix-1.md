@@ -54,9 +54,9 @@ This will list the files and direcories in our current working directory.
 ! Which directories and files are in your current working directory?
 ```
 
-If you are having trouble distinguising between directories and files, you can use `ls -F` to show a `/` after each folder (and a `*` after the executables).
+If you are having trouble distinguising between directories and files, you can use `ls -F` to show a `/` after each directory (and a `*` after the executables).
 
-## 1.3.3 Navigating into a directory  ** 
+## 1.3.3 Navigating into a directory
 From the step above, you should have seen a single directory called `Module-1-Unix-Python` inside the `BIOS3010` directory. To navigate into the `Module-1-Unix-Python` execute the following command:
 
 ```bash
@@ -67,6 +67,44 @@ cd Module-1-Unix-Python`
 ! Which files and folders are inside the Module-1-Unix-Python directory?
 ```
 
+## 1.3.4 Navigating one step back in the directory
+From the step above, you entered into the `Module-1-Unix-Python`, to move one step back again, execute:
+```bash
+cd ..
+```
+```diff
+! What is now the path of your working directory?
+```
+
+```diff
+! Note:
+! The two dots (`..`) are used as a shortcut to "one step back" in the filesystem.
+```
+
+
+## 1.3.5 Using `.` as a reference to your working directory
+First, enter back into the `Module-1-Unix-Python` directory. This time, we will do this with another shortcut (a single dot, `.`)
+```bash
+cd ./Module-1-Unix-Python
+```
+This is equivalent to `cd Module-1-Unix-Python`, but we use it here to show you that the single dot `.` can be used as a reference to your current working directory. This reference can come in handy from time to time.
+
+```diff
+! Note:
+! A single dot (`.`) is used as a shortcut to your current working directory in the filesystem.
+```
+
+## 1.3.6 Using `~` as a reference to your home directory
+While we are at it, let's take a look at another refence, this time to your home directory:
+```bash
+cd ~/BIOS3010/Module-1-Unix-Python
+```
+Again, here, this is equivalent to `cd Module-1-Unix-Python`, but the `~` which is a shortcut reference to your home directory is very useful. You can use the above command if you get "lost" somewhere in the filesystem and want to go back to the base directory of this week's exercises.
+
+```diff
+! Note:
+! The tilde character (`~`) is used as a shortcut to your home directory in the filesystem.
+```
 
 
 **2. Creating a new directory: `mkdir`** 

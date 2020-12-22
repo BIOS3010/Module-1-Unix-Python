@@ -135,8 +135,8 @@ mkdir hello
 ! Navigate one step back
 ```
 
-**9. Removing directories**
-In the step above, we created an empty directory. Delete the empty directory:
+## 1.3.10 Removing directories
+In the step above, we created an empty directory. Delete the empty directory using `rmdir`:
 ```bash
 rmdir hello
 ```
@@ -146,38 +146,45 @@ rmdir hello
 ! What happens?
 ```
 
-**10. Navigating in directory paths**
+## 1.3.11 Moving directories and files**
+To move a directory or a file, we use the `mv` command. Run this:
 ```bash
-mkdir abc
-mkdir abc/def
-mkdir abc/def/ghi
-```
-Note: The slash symbol `/` is used to indicate the (relative) paths of the directories
-
-```diff
-! Describe what happened in the three commands above
-! Navigate into the new direcories with `cd` and look at where you are with `pwd`
-! Navigate back to the BIOS3010 folder (hint: use the commands you have learned above)
-```
-
-**11. Combining `..` and `/`**
-```bash
-cd abc/def/ghi/
-cd ../../
+mv data/molweights.txt .
 ```
 
 ```diff
-! In which folder are you now placed?
-! Navigate back to the BIOS3010 folder
+! Where did the `molweights.txt` end up? (hint: use `ls`)
+! Explain the logic of the command above
 ```
 
-**11. Moving directories and files with `mv`**
-Do this:
+Now, move the `molweights.txt` file back into the `data` folder:
 ```bash
-mkdir xyz
-mv xyz zzz
-ls
+mv molweights.txt data/
 ```
+```diff
+Note:
+! The `mv` command can also be used to move entire directories around
+```
+
+## 1.3.12 Renaming directories and files**
+In the above step, we learned about the `mv` command to move files and directories. If you by accident misspelled the name of the `data` directory, for example, you may have noticed that you can rename files and folders by "moving them" to a new name again using `mv?`. To this:
+```bash
+mv data/molweights.txt data/moleculeweights.txt
+mv data dataset
+```
+
+```diff
+! What happened in the two lines above?
+```
+Now, rename the file and directory back to their original names:
+```bash
+mv dataset/moleculeweights.txt dataset/molweights.txt 
+mv dataset data
+```
+
+
+
+
 Note: `mv` moves files and directories, and can therefore also be used to rename these by "moving" them to their new name
 
 ```diff
@@ -186,6 +193,9 @@ Note: `mv` moves files and directories, and can therefore also be used to rename
 ! Move the `aaa` directory into the `bbb` directory
 ! Try to remove the `aaa` directory. What happens?
 ```
+
+## 1.3.13 Using tab to speed things up**
+You may already have noticed, but you can use tab.
 
 **11. Summarize what you have learned**
 You have now learned about the following commands/concepts:

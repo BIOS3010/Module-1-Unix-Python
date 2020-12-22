@@ -13,6 +13,8 @@ Follow each of the step in numerical order. If you have problems/errors along th
 ## 1.1 Install a shell on your computer
 - Show here
 
+- A short video introduction to using git bash: https://www.youtube.com/watch?v=oQc-2gsjgDg&ab_channel=MarioKaack
+
 ## 1.2 Setup today's exercises
 Copy and paste the commands below into your terminal:
 ```bash

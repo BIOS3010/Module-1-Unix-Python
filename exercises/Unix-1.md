@@ -240,7 +240,7 @@ You have now learned about the following commands/concepts:
 ! Remembering these basics can speed things up for you in the course
 ```
 
-Now [go to the second part of the exercises](exercises/Unix-2.md)
+Now [go to the second part of the exercises](Unix-2.md)
 
 
 

@@ -102,12 +102,45 @@ sort molweights.txt > molweights.sorted.txt
 ! Never redirect the output of a command that operates on a file to the same file
 ```
 
-## 1.4.9 Piping command output into other commands
+## 1.4.9 Searching (or "grepping") for content within files
+To output lines matching a specific pattern, you can use the `grep` command. For example, to only output the line in the `molweights.txt` file starting with with "Leu", do this:
 
-TBD.
+```bash
+grep "Leu" molweights.txt
+```
+To search for and output all lines starting with "L", do this:
 
-## 1.4.10 Searching (or "grepping") for content within files
+```bash
+grep "^L" molweights.txt
+```
+the `^` specifies that the lines  should start with the "L"  
 
-TBD.
+To specify a search pattern, `grep` uses "regular expressions", an extremely flexible and useful way of searching. We will not use these as part of the course, but if you are interested you can read more about these [here](https://www.cyberciti.biz/faq/grep-regular-expressions/).
+
+```diff
+! Which lines in `molweights.txt` start with an L?
+! Which lines in `molweights.txt` start with a T?
+! Create a file (`molweights.Gl.txt`) containing only lines from `molweights.txt` starting with "Gl"
+```
+
+## 1.4.10 Sending (or "piping") command output into other commands
+It is also possible to combine multiple commands by sending the output of one command into another command. This is called "piping", and is a powerful way of creating pipelines of commands. To illustrate a simple example, perform the following command:
+
+```bash
+grep "T" molweights.txt | sort -k 2n
+```
+As you see, we use the vertical line `|` character to indicate the the output from the left command should go as input to the right command. 
+
+```diff
+! Explain the commands on the left and right side of the `|`
+! Make a command that creates a file called "top10.txt" containing the 10 amino acids with the highest molecular weights
+```
+
+```diff
+Note:
+! pipes can chain together many commands: command1 | command2 | command3 (etc.)
+! We call commands chained together like this "oneliners"
+```
+
 
 - See: http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html

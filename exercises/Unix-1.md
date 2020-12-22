@@ -27,9 +27,10 @@ Inside that directory are several other directories: `bin` (which is where some 
 We know that our current working directory `/Users/nelle` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
 
 ```diff
-!Notice that there are two meanings for the / character. 
-When it appears at the front of a file or directory name, it refers to the root directory.
-When it appears inside a path, it’s just a separator.
+! Note:
+! There are two meanings for the / character:
+! When it appears at the front of a file or directory name, it refers to the root directory.
+! When it appears inside a path, it’s just a separator.
 ```
 
 Underneath `/Users`, we find one directory for each user with an account on Nelle’s machine, her colleagues `imhotep` and `larry`.
@@ -37,6 +38,23 @@ Underneath `/Users`, we find one directory for each user with an account on Nell
 ![](https://user-images.githubusercontent.com/5373069/102868346-5df41000-443a-11eb-9212-1293ade3eecd.png)
 
 The user `imhotep`’s files are stored in `/Users/imhotep`, user `larry`’s in `/Users/larry`, and Nelle’s in `/Users/nelle`. Because Nelle is the user in our example here, this is why we get `/Users/nelle` as our home directory. Typically, when you open a new command prompt you will be in your home directory to start.
+
+```diff
+! Note:
+! The "home directory" is the base directory of our user
+! The "working directory" is where we are currently placed in the filesystem
+```
+
+## 1.3.2 Listing files and directories in our working directory  ** 
+```bash
+ls
+```
+This will list the files and direcories in our current working directory.
+```diff
+! Which directories and files are in your current working directory?
+```
+
+If you are having trouble distinguising between directories and files, you can use `ls -F` to show a `/` after each folder (and a `*` after the executables).
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

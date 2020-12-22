@@ -8,6 +8,7 @@ In some places, there are tasks for you to do, or questions where you are meant 
 ```diff
 !Like this
 ```
+Follow each of the step in numerical order. If you have problems/errors along the way, contact a lecturer and refer to the step number where you are having issues.
 
 ## 1.1 Install a shell on your computer
 - Show here
@@ -19,7 +20,7 @@ mkdir BIOS3010
 cd BIOS3010
 git clone https://github.com/BIOS3010/Module-1-Unix-Python.git
 ```
-For the moment, don't worry if you do not understand these commands. We are going to learn about these in the exercises today. These commands are there to make a new directory (BIOS3010) where all our exercises will be placed. We then move into that directory (`cd`) and then download the material needed for today's exercies (`git clone`). You will do a similar thing at the beginning of each exercises in each week of the course.
+For the moment, don't worry if you do not understand these commands. We are going to learn about these in the exercises today. These commands are there to make a new directory (`mkdir`) with the name BIOS3010 where all our exercises will be placed. We then move into that directory (`cd`) and then download the material needed for today's exercies (`git clone`). You will do a similar thing at the beginning of each exercises in each week of the course.
 
 ## 1.3 Learning how to navigate in your file system
 * Go to [these exercises](exercises/Unix-1.md), and follow all the steps

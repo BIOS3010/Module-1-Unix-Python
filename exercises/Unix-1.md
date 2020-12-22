@@ -3,7 +3,7 @@ In these exercises, you will be introduced to how to navigate in the filesystem 
 # Working and navigating with directories/folders
 Your computer organizes files and directories (these are sometimes called "folders") in a file system. As you probably already know, files contain data and information, and directories contain files and/or other directories. On your computer, you are probably used to clicking on files and folders to navigate around in them. On the shell, however, all oparations has to be done using commands. Here, we will learn the basic (and important) commands allowing us to move around in the file system on our computer.
 
-## 1.3.1 Printing our current position ("where we are) in the filesystem  
+## 1.3.1 Printing our current position ("where we are") in the filesystem  
 Type in the following command in the terminal
 ```bash
 pwd
@@ -68,8 +68,8 @@ cd Module-1-Unix-Python
 ! Which files and folders are inside the Module-1-Unix-Python directory?
 ```
 
-## 1.3.4 Navigating one step back in the directory
-From the step above, you entered into the `Module-1-Unix-Python`, to move one step back again, execute:
+## 1.3.4 Navigating one step up in the directory
+From the step above, you entered into the `Module-1-Unix-Python`, to move one step up again (into the "parent directory"), execute:
 ```bash
 cd ..
 ```
@@ -79,7 +79,7 @@ cd ..
 
 ```diff
 ! Note:
-! The two dots (`..`) are used as a shortcut to "one step back" in the filesystem.
+! The two dots (`..`) are used as a shortcut to "one step up" in the filesystem.
 ```
 
 ## 1.3.5 Using `.` as a reference to your working directory
@@ -133,7 +133,7 @@ mkdir hello
 ! Use the commands we learned about to:
 ! List the name of the new folder
 ! Navigate into the new folder
-! Navigate one step back
+! Navigate one step up
 ```
 
 ## 1.3.10 Removing directories

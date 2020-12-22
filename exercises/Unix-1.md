@@ -1,6 +1,4 @@
-In these exercises, you will be introduced to how to 
-
-**Install gitbash**
+In these exercises, you will be introduced to how to navigate in the filesystem on your computer using the shell.
 
 **Working and navigating with directories/folders**
 Your computer organizes files and directories (these are sometimes called "folders") in a file system. As you probably already know, files contain data and information, and directories contain files and/or other directories. On your computer, you are probably used to clicking on files and folders to navigate around in them. On the shell, however, all oparations has to be done using commands. Here, we will learn the basic (and important) commands allowing us to move around in the file system on our computer.
@@ -55,6 +53,19 @@ This will list the files and direcories in our current working directory.
 ```
 
 If you are having trouble distinguising between directories and files, you can use `ls -F` to show a `/` after each folder (and a `*` after the executables).
+
+## 1.3.3 Navigating into a directory  ** 
+From the step above, you should have seen a single directory called `Module-1-Unix-Python` inside the `BIOS3010` directory. To navigate into the `Module-1-Unix-Python` execute the following command:
+
+```bash
+cd Module-1-Unix-Python`
+```
+```diff
+! What is now the path of your working directory?
+! Which files and folders are inside the Module-1-Unix-Python directory?
+```
+
+
 
 **2. Creating a new directory: `mkdir`** 
 To create a new directory, use the `mkdir` command followed by the name of the new/empty folder:

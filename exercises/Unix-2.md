@@ -94,7 +94,7 @@ sort molweights.txt > molweights.sorted.txt
 ! Has a new file been created?
 ! If so, inspect the file
 ! Is the new file sorted?
-! Do the same as above, but create a new file sorted by molecular weight
+! Do the same as above, but create a new file named (molweights.numsort.txt) sorted by molecular weight
 ```
 
 ```diff

@@ -147,7 +147,21 @@ rmdir hello
 ! What happens?
 ```
 
-## 1.3.11 Moving directories and files
+## 1.3.11 Removing files
+In the step above, we removed a directory. To remove a file use the `rm` command:
+```bash
+rm README.md
+```
+```diff
+! Check that the README.md file is removed
+```
+
+```diff
+Note:
+! Be careful when removing files!
+! On Unix, removed files are lost forever and not placed in a trashcan
+```
+## 1.3.12 Moving directories and files
 To move a directory or a file, we use the `mv` command. Run this:
 ```bash
 mv data/molweights.txt .
@@ -175,7 +189,7 @@ Note:
 ! The `mv` command can also be used to move entire directories around
 ```
 
-## 1.3.12 Renaming directories and files**
+## 1.3.13 Renaming directories and files**
 In the above step, we learned about the `mv` command to move files and directories. If you by accident misspelled the name of the `data` directory, for example, you may have noticed that you can rename files and folders by "moving them" to a new name again using `mv?`. To this:
 ```bash
 mv data/molweights.txt data/moleculeweights.txt
@@ -191,7 +205,7 @@ mv dataset/moleculeweights.txt dataset/molweights.txt
 mv dataset data
 ```
 
-## 1.3.13 Using TAB to speed things up
+## 1.3.14 Using TAB to speed things up
 You may already have noticed, but you can use tab as a shortcut instead of typing long paths. Type in:
 ```bash
 ls da
@@ -204,7 +218,7 @@ and stop there. Then:
 ! What happens?
 ```
 
-## 1.3.14 Other useful shortcuts
+## 1.3.15 Other useful shortcuts
 These shortcuts can speed up things even further:
 
 - [CTRL]-a: Go to start of line, just after the prompt
@@ -222,7 +236,7 @@ These shortcuts can speed up things even further:
 ! If you ever get stuck in a command that never ends, [CTRL]-c is your friend
 ```
 
-## 1.3.15 Getting help in using the commands
+## 1.3.16 Getting help in using the commands
 
 TBD: --help and `man
 

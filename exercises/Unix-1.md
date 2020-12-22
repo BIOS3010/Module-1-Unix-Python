@@ -223,8 +223,10 @@ These shortcuts can speed up things even further:
 
 - [CTRL]-a: Go to start of line, just after the prompt
 - [CTRL]-e: Go to end of line
+- [CTRL]-u: Delete everything before the cursor
 - [CTRL]-k: Delete everything after the cursor
 - [CTRL]-c: Kills (stops) a job that is running
+- Using the up/down arrows on your keyboard, you can display your previous commands
 
 ```diff
 ! Type in some random text in the terminal window

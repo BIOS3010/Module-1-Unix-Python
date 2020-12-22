@@ -102,5 +102,8 @@ sort molweights.txt > molweights.sorted.txt
 ! Never redirect the output of a command that operates on a file to the same file
 ```
 
+## 1.4.8 Piping command output into other commands
+
+TBD.
 
 - See: http://swcarpentry.github.io/shell-novice/04-pipefilter/index.html

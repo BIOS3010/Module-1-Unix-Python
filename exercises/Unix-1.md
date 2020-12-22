@@ -247,6 +247,7 @@ You have now learned about the following commands/concepts:
 - pwd
 - ls
 - rmdir
+- rm
 - mv 
 - ..
 - /

@@ -12,8 +12,18 @@ In some places, there are tasks for you to do, or questions where you are meant 
 **1.1 Install a shell on your computer**
 - Show here
 
-**1.2 Learning how to navigate in your file system
-* Do [these exercises](exercises/Unix-1.md)
+**1.2 Setup today's exercises**
+Copy and paste the commands below into your terminal:
+```bash
+mkdir BIOS3010
+cd BIOS3010
+git clone XXX
+```
+For the moment, don't worry if you do not understand these commands. We are going to learn about these in the exercises today. These commands are there to make a new directory (BIOS3010) where all our exercises will be placed. We then move into that directory (`cd`) and then download the material needed for today's exercies (`git clone`). You will do a similar thing at the beginning of each exercises in each week of the course.
+
+**1.3 Learning how to navigate in your file system
+* Go to [these exercises](exercises/Unix-1.md), and follow all the steps
+
 
 Then:
 - rmdir

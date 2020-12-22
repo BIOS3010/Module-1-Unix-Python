@@ -17,7 +17,7 @@ Copy and paste the commands below into your terminal:
 ```bash
 mkdir BIOS3010
 cd BIOS3010
-git clone XXX
+git clone https://github.com/BIOS3010/Module-1-Unix-Python.git
 ```
 For the moment, don't worry if you do not understand these commands. We are going to learn about these in the exercises today. These commands are there to make a new directory (BIOS3010) where all our exercises will be placed. We then move into that directory (`cd`) and then download the material needed for today's exercies (`git clone`). You will do a similar thing at the beginning of each exercises in each week of the course.
 

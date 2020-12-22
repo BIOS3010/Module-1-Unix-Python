@@ -16,6 +16,7 @@ Follow each of the step in numerical order. If you have problems/errors along th
 ## 1.2 Setup today's exercises
 Copy and paste the commands below into your terminal:
 ```bash
+cd
 mkdir BIOS3010
 cd BIOS3010
 git clone https://github.com/BIOS3010/Module-1-Unix-Python.git

@@ -105,6 +105,10 @@ Again, here, this is equivalent to `cd Module-1-Unix-Python`, but the `~` which 
 ! Note:
 ! The tilde character (`~`) is used as a shortcut to your home directory in the filesystem.
 ```
+## 1.3.7 Navingating back and forth in the filesystem
+```diff
+! Spend 3-5 minutes using the above commands to move around in the filesystem in the BIOS3010 folder we created
+```
 
 
 **2. Creating a new directory: `mkdir`** 

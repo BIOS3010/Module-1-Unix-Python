@@ -208,16 +208,21 @@ and stop there. Then:
 These shortcuts can speed up things even further:
 
 - <CTRL>-a: Go to start of line, just after the prompt
+- <CTRL>-e: Go to end of line
 - <CTRL>-k: Delete everything after the cursor
 - <CTRL>-c: Kills (stops) a job that is running
-- <CTRL>-z: Suspends a job that is running. A suspended job can be restarted.
 
 ```diff
 ! Type in some random text in the terminal window
 ! Try out the above shortcuts
 ```
 
-**11. Summarize what you have learned**
+```diff
+! Note:
+! If you ever get stuck in a command that never ends, <CTRL>-c is your friend
+```
+
+## 1.3.13 A summary of what we have learned
 You have now learned about the following commands/concepts:
 - cd 
 - mkdir
@@ -228,10 +233,17 @@ You have now learned about the following commands/concepts:
 - ..
 - /
 - ~
+- Some shortcuts to speed things up
 
 ```diff
-! Write down a short description of what each of these does
+! See if you remember what each of the above commands and concepts do
+! Remembering these basics can speed things up for you in the course
 ```
 
-Some of the examples are taken from: http://swcarpentry.github.io/shell-novice/02-filedir/index.html
+
+Go back to the main page, and start on exercise 2.
+
+
+
+(Some of the examples are taken from: http://swcarpentry.github.io/shell-novice/02-filedir/index.html)
 

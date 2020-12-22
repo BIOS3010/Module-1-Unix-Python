@@ -43,10 +43,12 @@ The user `imhotep`’s files are stored in `/Users/imhotep`, user `larry`’s in
 ! The "working directory" is where we are currently placed in the filesystem
 ```
 
-## 1.3.2 Listing files and directories in our working directory  ** 
+## 1.3.2 Listing files and directories in our working directory
+
 ```bash
 ls
 ```
+
 This will list the files and direcories in our current working directory.
 ```diff
 ! Which directories and files are in your current working directory?

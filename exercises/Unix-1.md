@@ -240,8 +240,7 @@ You have now learned about the following commands/concepts:
 ! Remembering these basics can speed things up for you in the course
 ```
 
-
-Go back to the main page, and start on exercise 2.
+Now [go to the second part of the exercises](exercises/Unix-2.md)
 
 
 

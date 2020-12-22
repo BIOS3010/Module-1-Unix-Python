@@ -27,27 +27,7 @@ For the moment, don't worry if you do not understand these commands. We are goin
 * Go to [these exercises](exercises/Unix-1.md), and follow all the steps
 
 ## 1.4 Learning how to work with files and data
-Then:
-- rmdir
-- cp
-- mv
-- rm
-
-And finally:
-- cat
-- head
-- tail
-- wc
-- grep
-- sort
-- uniq
-
-
-
-
-
-
-
+* Go to [these exercises](exercises/Unix-2.md), and follow all the steps
 
 
 * Idea: Make your own cheat sheet. Each breakout-group gets assigned a unique set of commands (ls, cd, pwd, etc.), and should describe each and show an example in the terminal. Report on Padlet?

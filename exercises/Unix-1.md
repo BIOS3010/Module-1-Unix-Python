@@ -120,7 +120,8 @@ Whenever you want to clear all the text in the terminal to make it easier to get
 ```bash
 clear
 ```
-This will just remove the text in the terminal, and will not change or delete anything. It is always safe to use `clear` whenever you need a clean terminal.
+This will just remove the text in the terminal, and will not change or delete anything. It is always safe to use `clear` whenever you need a 
+terminal.
 
 ## 1.3.9 Creating a new directory
 
@@ -225,6 +226,7 @@ These shortcuts can speed up things even further:
 - [CTRL]-e: Go to end of line
 - [CTRL]-u: Delete everything before the cursor
 - [CTRL]-k: Delete everything after the cursor
+- [CTRL]-l: Clear the screen (like `clean`)
 - [CTRL]-c: Kills (stops) a job that is running
 - Using the up/down arrows on your keyboard, you can display your previous commands
 

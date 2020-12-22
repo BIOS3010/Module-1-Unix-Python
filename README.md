@@ -11,9 +11,11 @@ In some places, there are tasks for you to do, or questions where you are meant 
 Follow each of the step in numerical order. If you have problems/errors along the way, contact a lecturer and refer to the step number where you are having issues.
 
 ## 1.1 Install a shell on your computer
-- Show here
-
-- A short video introduction to using git bash: https://www.youtube.com/watch?v=oQc-2gsjgDg&ab_channel=MarioKaack
+- We will need The Bash Shell, nano and git installed on our computers for this course
+- To install everything you need, follow the instructions here https://carpentries.github.io/workshop-template/#setup by chosing the tab corresponding to your system (Windows, Mac or Linix).
+- As you will see from the instructions, if you have a Mac or a Linux machine you already have something called a “Terminal” installed.
+- After you have the terminal installed, test it.
+- A short video introduction to using git bash (mainly for Windows users): https://www.youtube.com/watch?v=oQc-2gsjgDg&ab_channel=MarioKaack
 
 ## 1.2 Setup today's exercises
 Copy and paste the commands below into your terminal:

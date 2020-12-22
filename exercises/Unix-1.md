@@ -1,9 +1,9 @@
 In these exercises, you will be introduced to how to navigate in the filesystem on your computer using the shell.
 
-**Working and navigating with directories/folders**
+# Working and navigating with directories/folders
 Your computer organizes files and directories (these are sometimes called "folders") in a file system. As you probably already know, files contain data and information, and directories contain files and/or other directories. On your computer, you are probably used to clicking on files and folders to navigate around in them. On the shell, however, all oparations has to be done using commands. Here, we will learn the basic (and important) commands allowing us to move around in the file system on our computer.
 
-## 1.3.1 Printing our current position ("where we are) in the filesystem  ** 
+## 1.3.1 Printing our current position ("where we are) in the filesystem  
 Type in the following command in the terminal
 ```bash
 pwd
@@ -191,8 +191,31 @@ mv dataset/moleculeweights.txt dataset/molweights.txt
 mv dataset data
 ```
 
-## 1.3.13 Using tab to speed things up**
-You may already have noticed, but you can use tab.
+## 1.3.13 Using TAB to speed things up
+You may already have noticed, but you can use tab as a shortcut instead of typing long paths. Type in:
+```bash
+ls da
+```
+and stop there. Then:
+```diff
+! press the TAB key on your computer
+! What happens?
+! press the TAB key again
+! What happens?
+```
+
+## 1.3.14 Other useful shortcuts
+These shortcuts can speed up things even further:
+
+- <CTRL>-a: Go to start of line, just after the prompt
+- <CTRL>-k: Delete everything after the cursor
+- <CTRL>-c: Kills (stops) a job that is running
+- <CTRL>-z: Suspends a job that is running. A suspended job can be restarted.
+
+```diff
+! Type in some random text in the terminal window
+! Try out the above shortcuts
+```
 
 **11. Summarize what you have learned**
 You have now learned about the following commands/concepts:

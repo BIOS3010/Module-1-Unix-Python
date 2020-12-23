@@ -39,7 +39,7 @@ The user `imhotep`’s files are stored in `/Users/imhotep`, user `larry`’s in
 
 ```diff
 ! Note:
-! The "home directory" is the base directory of our user
+! The "home directory" is the base directory of your user
 ! The "working directory" is where we are currently placed in the filesystem
 ```
 

@@ -1,3 +1,4 @@
+# Python exercises (repetition)
 In the exercises below, you will repeat some of the Python you learned in BIOS1100. Skip this exercise aif you feel comfortable coding in Python.
 
 Write your answers to these exercises as Python code using a text editor like Notepad++ or Atom. Try to solve everything first before looking at the solution. If you are stuck, have a look at the slides or other material online.
@@ -48,7 +49,7 @@ T = 5
 ! And another line that prints the melting temperature
 ```
 
-# Exercise 1.5.4
+## Exercise 1.5.4
 Now,
 ```diff
 ! Create a function that takes four arguments, A, C, G, and T and returns the melting temperature. 
@@ -60,7 +61,7 @@ Now,
 ! Verify that you get the same melting temperature as in the previous exercise.
 ```
 
-# Exercise 1.5.5
+## Exercise 1.5.5
 The following function is supposed to return True if a DNA sequence is valid DNA and False if not. However, there is something wrong this code:
 
 ```python
@@ -85,7 +86,7 @@ Bonus task:
 ! The if-sentence is a bit clumsy. Try to make it more concise? Hint: Lists
 ```
 
-# Exercise 1.5.6
+## Exercise 1.5.6
 GC-content is the ratio of number of `G`s and `C`s in a DNA sequence. For instance, the GC-content of `ACTG` is 50%.
 
 ```diff
@@ -93,7 +94,7 @@ GC-content is the ratio of number of `G`s and `C`s in a DNA sequence. For instan
 ! Test the function with a few sequences of your choice.
 ```
 
-# Exercise 1.5.7
+## Exercise 1.5.7
 In this exercise you will write a small program that reads a BED file.
 First, use Bash to check that the file `open_chromatin_chr6.bed` is available for you:
 ```bash

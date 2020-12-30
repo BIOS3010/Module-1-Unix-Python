@@ -142,7 +142,14 @@ Note:
 ! We call commands chained together like this "oneliners"
 ```
 
-## 1.4.11 A summary of what we have learned
+## 1.4.11 Downloading files from the internet
+To download files from the internet, you first need the full URL (starting with http, https or ftp) linking to the file you want to download. To download the file, do this:
+```bash
+curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
+```
+You may already be used to using another command called `wget` to download files. If so, feel free to use `wget` instead of `curl -O`.
+
+## 1.4.12 A summary of what we have learned
 You have now learned about the following commands/concepts:
 - cat
 - wc 

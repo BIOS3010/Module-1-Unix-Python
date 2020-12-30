@@ -10,12 +10,17 @@ In some places, there are tasks for you to do, or questions where you are meant 
 ```
 Follow each of the step in numerical order. If you have problems/errors along the way, contact a lecturer and refer to the step number where you are having issues.
 
-## 1.1 Install a shell on your computer
-- We will need The Bash Shell, nano and git installed on our computers for this course
+## 1.1 Install and setup all required software on your computer
+- We will need a Terminal application running Bash, nano and git installed on our computers for this course
 - To install everything you need, follow the instructions here https://carpentries.github.io/workshop-template/#setup by chosing the tab corresponding to your system (Windows, Mac or Linix).
 - As you will see from the instructions, if you have a Mac or a Linux machine you already have something called a “Terminal” installed.
-- After you have the terminal installed, test it.
+- If you need to install the terminal (typically Windows users), make sure to test the terminal after it is installed.
 - A short video introduction to using git bash (mainly for Windows users): https://www.youtube.com/watch?v=oQc-2gsjgDg&ab_channel=MarioKaack
+
+For all Python exercises in the course, we will need:
+- Python (obviously). [See installation instructions for your system here](https://carpentries.github.io/workshop-template/#python)
+- A text editor: [Notepad++](https://notepad-plus-plus.org/downloads/) or [Atom](https://atom.io/) (or another text editor suitable for programming)
+You may have Python installed on your system already
 
 ## 1.2 Setup today's exercises
 Start your Bash shell (Terminal) and copy and paste the commands below into your terminal:
@@ -33,10 +38,9 @@ For the moment, don't worry if you do not understand these commands. We are goin
 ## 1.4 Learning how to work with files and data
 * Go to [these exercises](exercises/Unix-2.md), and follow all the steps
 
-
 * Idea: Make your own cheat sheet. Each breakout-group gets assigned a unique set of commands (ls, cd, pwd, etc.), and should describe each and show an example in the terminal. Report on Padlet?
 
-# Python exercises
-* Read [this guide](exercises/guide_getting_started_with_python.md) if you need help to get Python installed on your computer.
-* [Repetition](exercises/Python-exercise1.md) ([Solution](solutions/Exercise1-solution.py))
+## 1.5 Repeating Python
+Unless you already feel comfortable using Python, repeat what you learned e.g. in BIOS1100 by doing these exercises:
+* Go to [these exercises](exercises/Python-exercise1.md). ([Solutions](solutions/Exercise1-solution.py))
 * [More training](..)

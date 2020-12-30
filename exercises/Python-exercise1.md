@@ -7,8 +7,8 @@ Write your answers to these exercises as Python code using a text editor like No
 ## Exercise 1.5.1
 ```diff
 ! Write a program that stores the two sequences `ACTG` and `TCCG` in two separate variables.
-! Write Python codes that prints these two sequences joined together (the sequence `ACTGTCCG` should be printed)
-! What is the length of the resulting sequence? Write Python code that prints the length of the resulting sequence.
+! Write Python codes that prints these two sequences joined into one sequence (`ACTGTCCG`)
+! Write Python code that prints the length of the resulting sequence.
 ```
 
 ## Exercise 1.5.2 

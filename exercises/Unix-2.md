@@ -205,6 +205,6 @@ You have now learned about the following commands/concepts:
 ```
 
 ## Further resources
-- A summary of the commands and concepts we have learned (in addition to some now) can be found here: http://swcarpentry.github.io/shell-novice/reference
+- A summary of the commands and concepts we have learned (in addition to some new) can be found here: http://swcarpentry.github.io/shell-novice/reference
 - A UNIX command summary "cheat sheet" that can be printed out on a single page: https://upload.wikimedia.org/wikipedia/commons/7/79/Unix_command_cheatsheet.pdf
 - A two-page "cheat sheet" containing useful basic Python commands: http://sixthresearcher.com/wp-content/uploads/2016/12/Python3_reference_cheat_sheet.pdf

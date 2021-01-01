@@ -163,9 +163,9 @@ TBD.
 TBD.
 
 ```diff
-! Download this file:
+! Download this file using `curl`:
 ! http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz
-! What do you think it contains?
+! Inspect the file. What do you think it contains?
 ```
 
 ## 1.4.13 A summary of what we have learned

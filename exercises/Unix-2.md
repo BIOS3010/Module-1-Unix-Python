@@ -154,13 +154,30 @@ Note:
 ! What does the `-O` flag do? (hint: --help)
 ```
 
-## 1.4.12 Unzipping files
-You may have noticed that the file you downloaded in the previous step has a `.gz` ending in the filename. If you tried using `head` on the file ...
-TBD.
-- `.zip`
-- `tar.gz` (http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromTrf.tar.gz)
+## 1.4.12 Unzipping files (`.gz`, `.zip` and `.tar.gz`)
+You may have noticed that the name of the file you downloaded in the previous step ends with a `.gz`. If you for example tried using `head` on the file, you noticed a lot of strange symbols. This is because the file is compressed (or "zipped") to save space, and it needs to be decompressed to be read as a normal text file. To decompress or "unzip" the files ending in `.gz` we use the `gunzip` command. Do this to decompress the file:
 
-TBD.
+```bash
+gunzip refGene.txt.gz
+```
+
+```diff
+! See what happened and inspect the file
+```
+
+There are also other types of decompressed files. For files ending with `.zip` we use `unzip`. To try this out, do this:
+
+```bash
+curl -O https://hgdownload.soe.ucsc.edu/goldenPath/hg18/bigZips/liftAll.zip
+unzip liftAll.zip
+```
+
+To decompress a file ending with `.tar.gz`, we use the command `tar -zxvf`. To try this out,  do this:
+
+```bash
+curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromTrf.tar.gz
+tar -zxvf chromTrf.tar.gz
+```
 
 ```diff
 ! Download this file using `curl`:

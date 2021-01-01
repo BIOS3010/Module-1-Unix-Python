@@ -203,5 +203,7 @@ You have now learned about the following commands/concepts:
 ! See if you remember what each of the above commands and concepts do
 ! Remembering most of this will help you in the course
 ```
-A summary of the commands and concepts we have learned (in addition to some now) can be found here: http://swcarpentry.github.io/shell-novice/reference
+
+## Further resources
+- A summary of the commands and concepts we have learned (in addition to some now) can be found here: http://swcarpentry.github.io/shell-novice/reference
 

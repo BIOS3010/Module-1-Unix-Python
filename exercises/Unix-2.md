@@ -157,6 +157,16 @@ Note:
 ## 1.4.12 Unzipping files
 You may have noticed that the file you downloaded in the previous step has a `.gz` ending in the filename. If you tried using `head` on the file ...
 TBD.
+- `.zip`
+- `tar.gz` (http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromTrf.tar.gz)
+
+TBD.
+
+```diff
+! Download this file:
+! http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/chr22.fa.gz
+! What do you think it contains?
+```
 
 ## 1.4.13 A summary of what we have learned
 You have now learned about the following commands/concepts:

@@ -206,4 +206,5 @@ You have now learned about the following commands/concepts:
 
 ## Further resources
 - A summary of the commands and concepts we have learned (in addition to some now) can be found here: http://swcarpentry.github.io/shell-novice/reference
-
+- A UNIX command summary "cheat sheet" that can be printed out on a single page: TBD
+- A two-page "cheat sheet" containing useful basic Python commands: TBD

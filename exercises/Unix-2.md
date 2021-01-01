@@ -149,7 +149,16 @@ curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
 ```
 You may already be used to using another command called `wget` to download files. If so, feel free to use `wget` instead of `curl -O`.
 
-## 1.4.12 A summary of what we have learned
+```diff
+Note:
+! What does the `-O` flag do? (hint: --help)
+```
+
+## 1.4.12 Unzipping files
+You may have noticed that the file you downloaded in the previous step has a `.gz` ending in the filename. If you tried using `head` on the file ...
+TBD.
+
+## 1.4.13 A summary of what we have learned
 You have now learned about the following commands/concepts:
 - cat
 - wc 

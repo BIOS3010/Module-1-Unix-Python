@@ -81,7 +81,7 @@ sort -k 2n molweights.txt
 In the above command `-k 2n` sets the sorting to column `2` and the `n` specifies that this is numerical sort.
 
 ```diff
-! Verify quickly that the output is sorted alphabetically
+! Verify quickly that the output is sorted numerically
 ! Is the `molweights.txt` now sorted by molecular weight? 
 ```
 

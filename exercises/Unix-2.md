@@ -33,7 +33,7 @@ cat molweights.txt
 ## 1.4.3 Counting lines in files
 To count the number of lines in `molweights.txt` do this:
 ```bash
-wc -l data/molweights.txt
+wc -l molweights.txt
 ```
 Here we use the `wc` ("word count") command with the `-l` flag to get the number of lines.
 

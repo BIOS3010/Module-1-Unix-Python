@@ -43,4 +43,4 @@ For the moment, don't worry if you do not understand these commands. We are goin
 ## 1.5 Repeating Python
 Unless you already feel comfortable using Python, repeat what you learned e.g. in BIOS1100 by doing these exercises:
 * Go to [these exercises](exercises/Python-exercise1.md). ([Solutions](solutions/Exercise1-solution.py))
-* [More training](Python-exercises2.md) ([Solutions](solutions/Exercise2-solutions.py))
+* [More training](exercises/Python-exercises2.md) ([Solutions](solutions/Exercise2-solutions.py))

@@ -6,7 +6,7 @@ Like this
 ```
 In some places, there are tasks for you to do, or questions where you are meant to write down your answer. These are written
 ```diff
-!Like this
+! Like this
 ```
 
 In some places, there are things for you to simply note. These are written:

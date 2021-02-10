@@ -25,9 +25,9 @@ cat molweights.txt
 (If you are experiencing errors with missing files and directories, you should run the following command `git stash` and then start on step 1.4.2 again.)
 
 ```diff
-! Note:
-! Do not use `cat` on big or non-text files. This might stall your system.
-! If you get stuck like this, use [CTRL]-c 
++ Note:
++ Do not use `cat` on big or non-text files. This might stall your system.
++ If you get stuck like this, use [CTRL]-c 
 ```
 
 ## 1.4.3 Counting lines in files
@@ -49,8 +49,8 @@ head molweights.txt
 This will print the first 10 lines of the file
 
 ```diff
-! Note:
-! The `head` command is extremely useful go get a quick view of a text file
++ Note:
++ The `head` command is extremely useful go get a quick view of a text file
 ```
 
 ## 1.4.5 Looking at the last lines in files
@@ -98,8 +98,8 @@ sort molweights.txt > molweights.sorted.txt
 ```
 
 ```diff
-! Note:
-! Never redirect the output of a command that operates on a file to the same file
++ Note:
++ Never redirect the output of a command that operates on a file to the same file
 ```
 
 ## 1.4.9 Searching (or "grepping") for content within files
@@ -137,9 +137,9 @@ As you see, we use the vertical line `|` character to indicate the the output fr
 ```
 
 ```diff
-Note:
-! pipes can chain together many commands: command1 | command2 | command3 (etc.)
-! We call commands chained together like this "oneliners"
++ Note:
++ pipes can chain together many commands: command1 | command2 | command3 (etc.)
++ We call commands chained together like this "oneliners"
 ```
 
 ## 1.4.11 Downloading files from the internet
@@ -150,7 +150,6 @@ curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
 You may already be used to using another command called `wget` to download files. If so, feel free to use `wget` instead of `curl -O`.
 
 ```diff
-Note:
 ! What does the `-O` flag do? (hint: --help)
 ```
 

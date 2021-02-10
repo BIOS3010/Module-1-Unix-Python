@@ -8,6 +8,13 @@ In some places, there are tasks for you to do, or questions where you are meant 
 ```diff
 !Like this
 ```
+
+In some places, there are things for you to simply note. These are written:
+```diff
++ Note:
++ Like this
+```
+
 Follow each of the step in numerical order. If you have problems/errors along the way, contact a lecturer and refer to the step number where you are having issues.
 
 ## 1.1 Install and setup all required software on your computer

@@ -25,10 +25,10 @@ Inside that directory are several other directories: `bin` (which is where some 
 We know that our current working directory `/Users/nelle` is stored inside `/Users` because `/Users` is the first part of its name. Similarly, we know that `/Users` is stored inside the root directory `/` because its name begins with `/`.
 
 ```diff
-! Note:
-! There are two meanings for the / character:
-! When it appears at the front of a file or directory name, it refers to the root directory.
-! When it appears inside a path, it’s just a separator.
++ Note:
++ There are two meanings for the / character:
++ When it appears at the front of a file or directory name, it refers to the root directory.
++ When it appears inside a path, it’s just a separator.
 ```
 
 Underneath `/Users`, we find one directory for each user with an account on Nelle’s machine, her colleagues `imhotep` and `larry`.
@@ -38,9 +38,9 @@ Underneath `/Users`, we find one directory for each user with an account on Nell
 The user `imhotep`’s files are stored in `/Users/imhotep`, user `larry`’s in `/Users/larry`, and Nelle’s in `/Users/nelle`. Because Nelle is the user in our example here, this is why we get `/Users/nelle` as our home directory. Typically, when you open a new command prompt you will be in your home directory to start.
 
 ```diff
-! Note:
-! The "home directory" is the base directory of your user
-! The "working directory" is where we are currently placed in the filesystem
++ Note:
++ The "home directory" is the base directory of your user
++ The "working directory" is where we are currently placed in the filesystem
 ```
 
 ## 1.3.2 Listing files and directories in our working directory
@@ -78,8 +78,8 @@ cd ..
 ```
 
 ```diff
-! Note:
-! The two dots (`..`) are used as a shortcut to "one step up" in the filesystem.
++ Note:
++ The two dots (`..`) are used as a shortcut to "one step up" in the filesystem.
 ```
 
 ## 1.3.5 Using `.` as a reference to your working directory
@@ -90,8 +90,8 @@ cd ./Module-1-Unix-Python
 This is equivalent to `cd Module-1-Unix-Python`, but we use it here to show you that the single dot `.` can be used as a reference to your current working directory. This reference can come in handy from time to time.
 
 ```diff
-! Note:
-! A single dot (`.`) is used as a shortcut to your current working directory in the filesystem.
++ Note:
++ A single dot (`.`) is used as a shortcut to your current working directory in the filesystem.
 ```
 
 ## 1.3.6 Using `~` as a reference to your home directory
@@ -102,8 +102,8 @@ cd ~/BIOS3010/Module-1-Unix-Python
 Again, here, this is equivalent to `cd Module-1-Unix-Python`, but the `~` which is a shortcut reference to your home directory is very useful. You can use the above command if you get "lost" somewhere in the filesystem and want to go back to the base directory of this week's exercises.
 
 ```diff
-! Note:
-! The tilde character (`~`) is used as a shortcut to your home directory in the filesystem.
++ Note:
++ The tilde character (`~`) is used as a shortcut to your home directory in the filesystem.
 ```
 ## 1.3.7 Navingating back and forth in the filesystem
 ```diff
@@ -158,9 +158,9 @@ rm README.md
 ```
 
 ```diff
-Note:
-! Be careful when removing files!
-! On Unix, removed files are lost forever and not placed in a trashcan
++ Note:
++ Be careful when removing files!
++ On Unix, removed files are lost forever and not placed in a trashcan
 ```
 ## 1.3.12 Moving directories and files
 To move a directory or a file, we use the `mv` command. Run this:
@@ -175,10 +175,10 @@ Note that `mv` takes in two "arguments" like this: `mv [argument1] [argument2]`,
 ```
 
 ```diff
-! Note:
-! An "argument" is something you provide when you run a command
-! Some commands (like `pwd`) take no arguments, some take 1, 2 or even more arguments
-! When we used `-F` in step 1.3.2 above, this is called a "flag"
++ Note:
++ An "argument" is something you provide when you run a command
++ Some commands (like `pwd`) take no arguments, some take 1, 2 or even more arguments
++ When we used `-F` in step 1.3.2 above, this is called a "flag"
 ```
 
 Now, move the `molweights.txt` file back into the `data` folder:
@@ -186,8 +186,8 @@ Now, move the `molweights.txt` file back into the `data` folder:
 mv molweights.txt data/
 ```
 ```diff
-Note:
-! The `mv` command can also be used to move entire directories around
++ Note:
++ The `mv` command can also be used to move entire directories around
 ```
 
 ## 1.3.13 Renaming directories and files**
@@ -236,8 +236,8 @@ These shortcuts can speed up things even further:
 ```
 
 ```diff
-! Note:
-! If you ever get stuck in a command that never ends, [CTRL]-c is your friend
++ Note:
++ If you ever get stuck in a command that never ends, [CTRL]-c is your friend
 ```
 
 ## 1.3.16 Getting help in using the commands

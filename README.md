@@ -45,8 +45,6 @@ For the moment, don't worry if you do not understand these commands. We are goin
 ## 1.4 Learning how to work with files and data
 * Go to [these exercises](exercises/Unix-2.md), and follow all the steps
 
-* Idea: Make your own cheat sheet. Each breakout-group gets assigned a unique set of commands (ls, cd, pwd, etc.), and should describe each and show an example in the terminal. Report on Padlet?
-
 ## 1.5 Repeating Python
 Unless you already feel comfortable using Python, repeat what you learned e.g. in BIOS1100 by doing these exercises:
 * Go to [these exercises](exercises/Python-exercise1.md). ([Solutions](solutions/Exercise1-solution.py))

@@ -8,7 +8,7 @@ Type in the following command in the terminal
 ```bash
 pwd
 ```
-This `pwd` (print working directory) command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home directory". Note that the path will look different on different computers. On a windows machine, it might look something like this:  `C:\Users\myname\BIOS3010\`, and on a Mac it could look like this: `/Users/myname/BIOS3010`. Your
+This `pwd` (print working directory) command prints your current position in the file system. The output should be similar to: `[/your/home/]/BIOS3010`, where `[/your/home/]` is the position of your "home directory". Note that the path will look different on different computers. On a windows machine, it might look something like this:  `C:\Users\myname\BIOS3010\`, and on a Mac it could look like this: `/Users/myname/BIOS3010`. 
 
 To understand what a ‘home directory’ is, let’s have a look at how the file system as a whole is organized. For the sake of this example, we’ll be illustrating the filesystem on the (made up) scientist Nelle’s computer. After this illustration, you’ll be learning commands to explore your own filesystem, which will be constructed in a similar way, but not be exactly identical.
 

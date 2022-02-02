@@ -240,9 +240,6 @@ These shortcuts can speed up things even further:
 + If you ever get stuck in a command that never ends, [CTRL]-c is your friend
 ```
 
-## 1.3.16 Getting help in using the commands
-
-TBD: --help and `man
 
 ## 1.3.16 A summary of what we have learned
 You have now learned about the following commands/concepts:
